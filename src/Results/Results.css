@@ -1,0 +1,84 @@
+.mainResultDiv {
+  width: 90%;
+  padding: auto;
+  margin: auto;
+}
+.result {
+  display: block ruby;
+  position: flex;
+  padding-bottom: 1%;
+}
+.card {
+  width: 70%;
+  padding: auto;
+  margin: auto;
+}
+.card-body {
+  padding-top: 5%;
+}
+.card-body h6 {
+  color: black;
+}
+.card-body p {
+  color: gray;
+}
+.card-img {
+  width: 125px;
+  height: 125px;
+}
+.result-image {
+  position: relative;
+  overflow: hidden;
+}
+.card-title {
+  padding-top: 2.5%;
+}
+.card-text {
+  font-size: 14px;
+}
+.row {
+  flex-wrap: nowrap;
+}
+.result-number {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  position: absolute;
+  right: 10px;
+  bottom: 2.5px;
+  z-index: 999;
+  color: gray !important;
+}
+.message {
+  width: 75%;
+  margin: auto;
+  padding: auto;
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 600px) {
+  .mainResultDiv {
+    width: 100%;
+  }
+  .card-img {
+    width: 50px;
+    height: 50px;
+  }
+  .card-body {
+    padding: 0;
+    /* margin-top: 5%; */
+  }
+  .no-gutters {
+    flex-wrap: inherit;
+  }
+  .card-title {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .card-text {
+    font-size: 10px;
+  }
+  .result-number {
+    font-size: 12px;
+  }
+}
